@@ -1,0 +1,141 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navigation */
+.navlinks {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+}
+
+.navlinks li {
+    margin: 0 25px;
+}
+
+.navlinks a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.navlinks a:hover {
+    color: #0077cc;
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Profile Section */
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Sports Section */
+.sports-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 20px;
+}
+
+.sport-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.sport-box:hover {
+    transform: translateY(-5px);
+}
+
+.sport-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #ddd;
+    color: #0077cc;
+}
+
+/* Footer */
+footer {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ========== Course.html */
+.projects-container {
+    display: grid;
+    gap: 25px;
+    margin: 20px;
+}
+
+.project-highlight {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #0077cc;
+    color: #333;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-highlight:hover {
+    transform: translateY(-5px);
+}
+
+.project-highlight h3 {
+    color: #0077cc;
+}
